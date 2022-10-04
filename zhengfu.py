@@ -154,8 +154,8 @@ def get_info(soup_find_all_href):
 #建立一個連線的Session
 session = requests.Session()
 #帶入帳密Payload
-login_payload =  {'id': 'asdfasdfdasf', 
-		    	  'password': 'asdfasdfdsf'}
+login_payload =  {'id': '******', 
+		    	  'password': '******'}
 #進入login頁面並且帶payload進去
 r = session.post(zhenfu_login_url, data=login_payload)
 
