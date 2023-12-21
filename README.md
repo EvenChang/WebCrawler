@@ -1,3 +1,5 @@
-sudo ./bin/python pttRealTime.py\n
-sudo pkill -f pttRealTime.py\n
+sudo ./bin/python pttRealTime.py
+
+sudo pkill -f pttRealTime.py
+
 /opt/miniconda3
